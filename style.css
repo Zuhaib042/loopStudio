@@ -29,13 +29,13 @@
 /* * {
   border: 1px solid red;
 } */
-#hero {
+.hero {
   background-image: url('./images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media (max-width: 576px) {
-  #hero {
+  .hero {
     background-image: url('./images/mobile/image-hero.jpg');
     background-position: center;
   }
